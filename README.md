@@ -1,39 +1,30 @@
-# Aplikasi Laundry berbasis Web
-Aplikasi Pengolahan Laundry sekaligus bisa mencetak kode invoice yang dapat digunakan untuk mengecek status laundry pelanggan tanpa harus registrasi.
-Aplikasi ini dibangun menggunakan PHP versi 7 dengan framework CodeIgniter 3 dan framework Bootstrap 4.
+Sistem Manajemen Laundry yang dikembangkan menggunakan PHP dan JavaScript. Sistem ini dirancang untuk mengelola operasional bisnis laundry secara efisien dan terorganisir dengan memberikan akses berbasis peran untuk empat jenis pengguna: Super Admin, Admin, Kasir, dan Owner. Setiap peran memiliki hak akses dan fungsi yang berbeda-beda sesuai dengan tanggung jawab dan kebutuhan operasional mereka.
 
-## Tampilan Aplikasi
-![ss](assets/ss1.png)
-![ss](assets/ss2.png)
-![ss](assets/ss3.png)
-![ss](assets/ss4.png)
-![ss](assets/ss5.png)
+#Fitur Utama#
+Super Admin:
+Manajemen pengguna (menambah, mengedit, menghapus pengguna)
+Mengelola semua data dalam sistem
+Akses penuh ke semua modul dan fitur
 
-___
-## Fitur-fitur:
-- Cetak Invoice Pelanggan
-- Mengelola laundry
-- Mengelola status laundry
-- Mengelola transaksi laundry
-- Mengelola dan mencetak omset laundry
-- Mengelola pelanggan
-- Mengelola pegawai
-- Mengelola riwayat aksi
-- Mengecek status laundry untuk pelanggan dengan kode invoice
-___
-## Akun:
-Jabatan akun dibagi menjadi 4 yaitu: super administrator, administrator, kasir, owner.
-Untuk mengakses akun Admin, pada bagian akhir url tambahkan auth/login. misal: http://localhost/andry_laundry/auth/login
-|    Level    |       Username      | Password |
-|:-----------:|:----------------- -:|:--------:|
-| Super Admin | super_administrator |  12345   |
-| Admin       | admin               |  admin   |
-| Kasir       | kasir               |  kasir   |
-___
+Admin:
+Mengelola data pelanggan dan transaksi
+Membuat laporan operasional
+Mengelola inventaris dan stok barang
 
-## Database
-database terdapat dalam folder databases
-___
+Kasir:
+Memproses transaksi pembayaran
+Mencetak struk transaksi
+Melihat status pesanan pelanggan
 
+Owner:
+Melihat laporan keuangan dan operasional
+Memantau kinerja dan statistik bisnis
+Mengakses laporan laba rugi dan analisis data
 
+#Teknologi yang Digunakan#
+Backend: PHP
+Frontend: HTML, CSS, JavaScript
+Database: MySQL
+Framework: Laravel (opsional, jika menggunakan framework PHP)
+Library/Plugin: jQuery, Bootstrap
 
